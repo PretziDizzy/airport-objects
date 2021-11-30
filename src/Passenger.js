@@ -1,5 +1,5 @@
 
-const person = require("./Person")
+const person = require("./person")
 class Passenger extends Person 
 {
     constructor(name, passportNumber, seatNumber) {

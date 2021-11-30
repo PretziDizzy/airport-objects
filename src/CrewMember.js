@@ -1,4 +1,4 @@
-const Person = require ("./Person")
+const Person = require ("./person")
 class crewMember extends Person {
     
     constructor(name, bags, position, staffNumber) {

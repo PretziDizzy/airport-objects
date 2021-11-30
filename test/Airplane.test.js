@@ -1,4 +1,4 @@
-const airplane = require ("./Airplane")
+const airplane = require ("../Airplane")
 
 describe('airplane class', ()=>{
     

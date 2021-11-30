@@ -1,9 +1,9 @@
-const bag = require ("../src/Bag")
+const bag = require ("../src/bag")
 
 describe ('bag class', () => {
     test('Bags needs a weight', () => {
 
-        const testbag = new bag(25)
+        const testbag = new Bag(25)
         expect(testbag.weight).toBe(25)
     })
 
